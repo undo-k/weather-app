@@ -28,11 +28,22 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+
+@keyframes rapid-privacy-policy-scrolling-extra-fast {
   from {
-    transform: rotate(0deg);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   to {
-    transform: rotate(360deg);
+    -webkit-transform: translateY(-3000%);
+            transform: translateY(-3000%);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #fast {
+    animation-name: rapid-privacy-policy-scrolling-extra-fast;
+    animation-duration: 30s;
+    animation-delay: 3s;
   }
 }
