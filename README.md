@@ -1,0 +1,2 @@
+# Weather App 
+This small project was an assignment from The Odin Project. The focus here was learning how to make API calls and use JavaScript Promises, the latter being much harder. Oh and I used create-react-app to do it.
