@@ -33,8 +33,7 @@ class App extends Component {
     return fetch(
       'https://api.openweathermap.org/data/2.5/weather?q=' +
         this.state.location +
-        '&appid=' +
-        process.env.REACT_APP_OPENWEATHER_KEY,
+        '&appid=6784242ca313d087d672ec45ec05d24a',
       {
         mode: 'cors',
       }
