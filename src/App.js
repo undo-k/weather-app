@@ -45,7 +45,7 @@ class App extends Component {
       .then((response) => {
         this.setState({
           main: response.main,
-        });
+        }); //
       });
   }
 
